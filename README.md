@@ -24,3 +24,5 @@ The system interfaces with six LEDs to represent the traffic lights and pedestri
 
 ## Logic
 Traffic should not be allowed to crash. I.e., there should not be a green or yellow on one road at the same time there is a green or  yellow LED on the other road. In other words, while traffic is flowing in one direction, there should be a red light in the other direction.
+
+ Traffic.xlsx includes the states table definition for the finite state machine of the traffic light control

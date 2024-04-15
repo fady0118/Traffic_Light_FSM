@@ -1,6 +1,5 @@
 # Traffic light finite state machine
 This project is my finished work for lab 10 of Embedded Systems - Shape The World: Microcontroller Input/Output course. 
-
 Coded in C 
 
 ## Hardware
@@ -23,3 +22,5 @@ The system interfaces with six LEDs to represent the traffic lights and pedestri
 - PF3 green LED for the "walk" light.
 - PF1 red LED for the "don't walk" light.
 
+## Logic
+Traffic should not be allowed to crash. I.e., there should not be a green or yellow on one road at the same time there is a green or  yellow LED on the other road. In other words, while traffic is flowing in one direction, there should be a red light in the other direction.
